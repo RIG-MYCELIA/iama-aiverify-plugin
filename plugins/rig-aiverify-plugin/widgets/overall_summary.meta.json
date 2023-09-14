@@ -1,0 +1,23 @@
+{
+  "cid": "overall_summary",
+  "widgetSize": {
+    "minW": 12,
+    "minH": 14,
+    "maxW": 12,
+    "maxH": 36
+  },
+  "name": "Overall Summary",
+  "description": "Summary of all the processs checklists responses",
+  "dependencies": [
+    {
+      "cid": "iama_deel_1_process_checklist"
+    }
+  ],
+  "mockdata": [
+    {
+      "type": "InputBlock",
+      "cid": "iama_deel_1_process_checklist",
+      "datapath": "iama_deel_1_process_checklist.sample.json"
+    }
+  ]
+}
